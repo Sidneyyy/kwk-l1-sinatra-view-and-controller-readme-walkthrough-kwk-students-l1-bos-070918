@@ -1,6 +1,11 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
+  
+  get '/' do
+    "Woops! Wrong Page lol!"
+  end
+  
   get '/reverse' do
     erb :reverse
   end
@@ -10,7 +15,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    # Write your code here!
+  end
 
   end
 end
