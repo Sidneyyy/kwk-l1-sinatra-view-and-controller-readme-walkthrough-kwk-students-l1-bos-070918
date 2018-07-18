@@ -17,5 +17,4 @@ class App < Sinatra::Base
   get '/friends' do
   end
 
-  end
 end
